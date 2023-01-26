@@ -4,7 +4,6 @@
 	import Fa from 'svelte-fa';
 	import { faBars, faXmark } from '@fortawesome/free-solid-svg-icons';
 	import { slide } from 'svelte/transition';
-	import Logo from '$lib/Logo.svelte';
 	import { LightSwitch } from '@skeletonlabs/skeleton';
 	import Logout from './Logout.svelte';
 	let showMenu = false;
@@ -43,9 +42,6 @@
 			{/each}
 			<li>
 				<LightSwitch />
-			</li>
-			<li>
-				<Logo />
 			</li>
 		</ul>
 	{/if}
